@@ -16,7 +16,7 @@ module FormsLab
       params[:pirate][:ships].each do |ship|
         Ship.new(ship)
       end
-      @ship = Ship.all
+      @ships = Ship.all
       erb :'pirates/show'
     end
 
