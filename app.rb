@@ -4,8 +4,8 @@ module FormsLab
   class App < Sinatra::Base
 
     # code other routes/actions here
-    get '/new' do
-      erb :new
+    get '/' do
+      'hello'
     end
 
 
